@@ -1,6 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generatePage = require('./page-template');
+const generatePage = require('./page-template.js');
 
 const promptUser = () => {
   return inquirer.prompt([
@@ -83,11 +83,13 @@ promptUser()
   .then(portfolioData => {
     const page = generatePage(portfolioData);
 
-    fs.writeFile('./readme',pagehtml, err => {
+   fs.writeFile('./dist/readme.md',page, err => {
   if (err) {
     console.log(err);
     return;
   }
   console.log('Page created! Check out ReadMe in this directory to see it!');
 
-})})
+})
+
+})
