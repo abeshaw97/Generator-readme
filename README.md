@@ -35,5 +35,4 @@ After answering all the questions you will find your readme in the dist folder u
 
 #  Usage
 
-![Untitled_ May 3, 2022 7_49 PM (1)](https://user-images.githubusercontent.com/94322760/166605494-86b278c9-c1f6-41df-bace-408480eceea6.gif)
-
+![Untitled_ May 3, 2022 7_49 PM (2)](https://user-images.githubusercontent.com/94322760/166605742-c1f6288c-25e8-4097-81dc-0f5511404ad7.gif)
