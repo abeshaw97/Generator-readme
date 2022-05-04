@@ -1,26 +1,38 @@
 # Generator-readme
 
-## This week assignment focused on node.js and javascript. We will be creating a README generator that will run by using Node.js and javascript function. Below are the guidelines to follow...
+# Description
+In this file structure I focused on creating a readme generator to help speed up your coding projects using only node.js and javascript function. As simple as placing your information into your command line and watch the code do the rest!
 
-### README story
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
+#
+
+## Table of Contents
+-[Description](#Description)
+
+-[Installation](#Installation)
+
+-[Usage](#Usage)
+
+-[Questions](#Questions)
+
+#
+
+# Installation
+
+So how does it work?
+
+Git clone my repository code either with the http or ssh key to your local project folder
+
+If you dont already have NPM on your cpu make sure to run npm init to install it in your current folder. once you do that you are going to want to install the inquirer 
+
+go to https://www.npmjs.com to install the inquirer package into your folder and follow instructions on how to download.
+once installed
+
+once you run the code "Node app" into the command line (terminal) the inquirer  will prompt you with questions you will need to answer to generate your Readme.
 
 
-### Acceptance Criteria:
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
+After answering all the questions you will find your readme in the dist folder under the file name of "readme.md"
+#
+
+#  Usage
+
+
